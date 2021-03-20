@@ -12,5 +12,9 @@ namespace RepasoconDaniela.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<RepasoconDaniela.Models.Currency> Currencies { get; set; }
+
+        public System.Data.Entity.DbSet<RepasoconDaniela.Models.Country> Countries { get; set; }
     }
 }
